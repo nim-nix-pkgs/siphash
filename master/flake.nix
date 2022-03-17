@@ -11,7 +11,7 @@
   inputs.src-siphash-master.owner = "~ehmry";
   inputs.src-siphash-master.ref   = "refs/heads/master";
   inputs.src-siphash-master.repo  = "nim_siphash";
-  inputs.src-siphash-master.type  = "other";
+  inputs.src-siphash-master.type  = "sourcehut";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
   let 
