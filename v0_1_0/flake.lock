@@ -37,10 +37,10 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-siphash-master": "src-siphash-master"
+        "src-siphash-v0_1_0": "src-siphash-v0_1_0"
       }
     },
-    "src-siphash-master": {
+    "src-siphash-v0_1_0": {
       "flake": false,
       "locked": {
         "lastModified": 1543238655,
@@ -52,7 +52,7 @@
       },
       "original": {
         "owner": "~ehmry",
-        "ref": "master",
+        "ref": "v0.1.0",
         "repo": "nim_siphash",
         "type": "sourcehut"
       }
